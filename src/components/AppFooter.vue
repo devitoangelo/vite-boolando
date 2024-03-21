@@ -35,8 +35,13 @@ export default {
                             <li><i class="fa-brands fa-instagram link_decoration p1"></i></li>
                             <li><i class="fa-brands fa-facebook link_decoration p1"></i></li>
                             <li><i class="fa-brands fa-youtube link_decoration p1"></i></li>
+    
                         </ul>
                     </section>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -44,7 +49,4 @@ export default {
 
 
 </template>
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>
