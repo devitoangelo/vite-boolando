@@ -7,7 +7,7 @@ export default {
 <template>
 
 
-<footer id="site_footer">
+    <footer id="site_footer">
         <div class="container_footer">
             <div class="content_footer">
                 <div class="top-2">
@@ -41,7 +41,10 @@ export default {
             </div>
         </div>
     </footer>
-   
+
 
 </template>
-<style></style>
+<style lang="scss">
+
+
+</style>

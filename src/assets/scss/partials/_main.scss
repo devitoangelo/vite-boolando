@@ -1,0 +1,276 @@
+.container1 {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.site-main {
+    height: auto;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+
+#site_main {
+    width: 70%;
+    margin-left: 15rem;
+
+}
+
+
+
+
+.container1 {
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly
+}
+
+
+.img {
+    position: relative;
+    max-width: 100%;
+}
+
+.web1 {
+    position: relative;
+    background-image: url(/images/1.webp);
+    background-size: cover;
+    display: flex;
+
+
+}
+
+
+.discount {
+    position: absolute;
+
+    bottom: 2rem;
+    background-color: red;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.character {
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    bottom: 2rem;
+    height: 24px;
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.brand {
+    color: grey;
+    margin-top: 31rem;
+}
+
+.product {
+    font-weight: bold;
+    width: 200px;
+    font-size: 15px;
+
+
+}
+
+
+.price {
+
+    display: flex;
+}
+
+
+.price1 {
+    color: red;
+    margin-right: 8px;
+
+
+
+}
+
+.discount1 {
+    opacity: 0.4;
+    text-decoration: line-through;
+
+}
+
+
+
+
+
+.web1:hover {
+    background-image: url(/images/1b.webp);
+
+}
+
+
+.img {
+    width: 19rem;
+    position: relative;
+
+
+
+}
+
+.heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+    background-color: white;
+
+}
+
+
+
+
+.web2 {
+    background-image: url(/images/2.webp);
+    width: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.web2:hover {
+    background-image: url(/images/2b.webp);
+}
+
+
+.web3 {
+    background-image: url(/images/3.webp);
+    width: 300px;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.web3:hover {
+    background-image: url(/images/3b.webp);
+
+}
+
+
+.container2 {
+    margin-top: 5rem;
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    display: flex;
+
+}
+
+.web4 {
+    background-image: url(/images/4.webp);
+    background-size: cover;
+    width: 300px;
+    margin-left: 2rem;
+    position: absolute;
+    height: 500px;
+
+}
+
+
+.web4:hover {
+    background-image: url(/images/4b.webp);
+}
+
+
+
+.web5 {
+    background-image: url(/images/5.webp);
+    width: 303px;
+    position: absolute;
+    left: 35%;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.web5:hover {
+    background-image: url(/images/5b.webp);
+}
+
+
+.web6 {
+    background-image: url(/images/6.webp);
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+
+.character1 {
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    height: 24px;
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+.web6:hover {
+    background-image: url(/images/6b.webp);
+}
+
+
+
+
+
+.site_footer {
+
+    background-color: #FF6900;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 10rem;
+
+}
+
+.titolo {
+    margin-left: 40%;
+
+
+
+}
+
+
+
+
+.li {
+    list-style: none;
+    display: inline;
+    color: white;
+    margin-left: 40%;
+
+}
+
+
+
+.d-flex {
+    display: flex;
+}
+

@@ -5,6 +5,7 @@ export default {
 
 </script>
 <template>
+
     <header id="site_header">
         <div class="container">
 <!-- //sinistra  -->
@@ -35,5 +36,12 @@ export default {
         </div>
     </header>
 
+
 </template>
-<style></style>
+<style lang="scss">
+
+
+
+
+
+</style>
