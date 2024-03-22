@@ -1,6 +1,23 @@
 <script>
+import { products } from '../data.js';
+import ProductCard from './ProductCard.vue';
+
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    component: {
+        ProductCard
+    },
+
+    data() {
+        return {
+            products
+        }
+    }
+
+
+
+
 }
 
 
@@ -8,29 +25,12 @@ export default {
 <template>
 
 
+
+
     <main id="site_main">
         <div class="container1">
             <!-- web1 -->
-            <div class="web1">
-
-                <div class="img">
-
-                    <div class="discount"> -50% </div>
-                    <div class="character">Sostenibilità</div>
-                    <nav class="brand">levi's</nav>
-                    <nav class="product">RELAXEX FIT TEE UNISEX </nav>
-                    <div class="price">
-                        <nav class="price1">14,99 €</nav>
-                        <nav class="discount1">29,99 €</nav>
-                        <div class="heart">&hearts;</div>
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
+            <ProductCard :product="product" :key="product.id" v-for="product in products" />
             <!-- endweb1 -->
 
 
