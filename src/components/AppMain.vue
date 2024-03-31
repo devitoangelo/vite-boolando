@@ -1,6 +1,7 @@
 <script>
-import { products } from '../data.js';
+// import { products } from '../data.js';
 import ProductCard from './ProductCard.vue';
+import axios from 'axios';
 
 
 export default {
@@ -11,8 +12,20 @@ export default {
 
     data() {
         return {
-            products
+            products: [],
         }
+    },
+    mounted() {
+        axios.get('http://localhost:3000/products')
+        .then(response => {
+
+            console.log(response);
+            this.state.products = response.data
+            // ho passato response.data in produscts che è diventato un array dove poterli pushare API
+
+
+
+        })
     }
 
 
