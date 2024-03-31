@@ -1,7 +1,9 @@
 <script>
 // import { products } from '../data.js';
 import ProductCard from './ProductCard.vue';
-import axios from 'axios';
+// import axios from 'axios'; ho passato il link in globale
+import { state } from '../state' 
+
 
 
 export default {
@@ -12,20 +14,24 @@ export default {
 
     data() {
         return {
-            products: [],
+            // products: [],
+            state,
         }
     },
     mounted() {
-        axios.get('http://localhost:3000/products')
-        .then(response => {
+        console.log(this.state);
+        this.state.getProducts(this.state.urlType)
 
-            console.log(response);
-            this.state.products = response.data
+
+        // axios.get('http://localhost:3000/products')
+        // .then(response => {
+
+        //     console.log(response);
+        //     this.state.products = response.data
             // ho passato response.data in produscts che è diventato un array dove poterli pushare API
+        // })
 
-
-
-        })
+        // ho passato l'axios nel globale su state.js
     }
 
 
