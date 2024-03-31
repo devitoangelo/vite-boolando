@@ -16,21 +16,27 @@ export default {
 <template>
 
 
-<div class="web1">
-                <div class="discount"> -30% </div>
-                <nav class="brand">{{product.brand}}</nav>
-                <nav class="product">{{product.name}} </nav>
+    <template>
+
+        <div class="col">
+            <div class="card">
+                <img :src="product.frontImage" width="350px" alt="">
+
+                <div class="discount"> {{ product.value }}</div>
+                <div class="character">{{ product.valueType }}</div>
+                <nav class="brand">{{ product.brand }}</nav>
+                <nav class="product">{{ product.name }} </nav>
                 <div class="price">
-                    <nav class="price1">{{product.price}}</nav>
-                    <nav class="discount1">29,99 €</nav>
+                    <nav class="price1">{{ product.price }}</nav>
+                    <nav class="discount1">{{ product.discount }}</nav>
                     <div class="heart">&hearts;</div>
-
                 </div>
-
             </div>
+        </div>
+
+
+    </template>
 
 </template>
 
-<style>
-    
-</style>
+<style></style>
